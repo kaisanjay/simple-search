@@ -1,5 +1,5 @@
 <script>
-import { tutorials as tutorialData } from '../data'
+import { tutorials as tutorialData } from './data'
 
 export default {
   name: 'App',
