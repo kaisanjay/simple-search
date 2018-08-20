@@ -1,8 +1,11 @@
 <script>
+import TutorialList from './components/TutorialList'
 import { tutorials as tutorialData } from './data'
+
 
 export default {
   name: 'App',
+  components: { TutorialList },
   data: () => ({
     tutorials: []
   }),
